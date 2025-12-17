@@ -300,6 +300,13 @@ dialog::backdrop {
   header {
     justify-content: space-between;
     gap: 1rem;
+    align-items: center;
+    display: flex;
+  }
+
+  .note-actions {
+    opacity: 1;
+    visibility: visible;
   }
 
   .add-note-btn {
@@ -363,6 +370,16 @@ dialog::backdrop {
 
   .empty-state p {
     font-size: 0.9rem;
+  }
+
+  .edit-btn,
+  .delete-btn {
+    width: 30px;
+    height: 30px;
+  }
+
+  h1 {
+    margin-bottom: 0;
   }
 }
 
